@@ -8,7 +8,7 @@ const socials = [
         icon: <FaGithub />,
     },
     {
-        path: "https://www.linkedin.com/in/abraham-rodriguez-69aa7b29b/",
+        path: "https://www.linkedin.com/in/abraham-rodr%C3%ADguez-martinez-69aa7b29b/",
         icon: <FaLinkedinIn />,
     },
 ];
