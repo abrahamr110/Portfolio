@@ -30,20 +30,6 @@ const projects = [
         image: "/assets/RealState.png",
         url: "https://github.com/abrahamr110/Real-State",
     },
-    {
-        num: "02",
-        title: "Rxx",
-        category: "rxx",
-        description:
-            "Este proyecto consiste en el desarrollo de un portal inmobiliario completo, utilizando tecnologías full stack, que permite a los usuarios buscar, publicar y gestionar propiedades en venta o alquiler de manera eficiente y fácil de usar.",
-        stack: [
-            { name: "Tailwind CSS" },
-            { name: "Next.js" },
-            { name: "Nest.js" },
-        ],
-        image: "/assets/RealState.png",
-        url: "https://github.com/abrahamr110/Real-State",
-    },
 ];
 const Proyectos = () => {
     const [project, setProject] = useState(projects[0]);
