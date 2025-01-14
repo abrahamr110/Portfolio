@@ -2,15 +2,12 @@
 
 import { Button } from "@/components/ui/button";
 
-import { Textarea } from "@/components/ui/textarea";
-
 import {
     Select,
     SelectContent,
     SelectGroup,
     SelectItem,
     SelectLabel,
-    SelectSeparator,
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select";
@@ -99,10 +96,7 @@ const Contacto = () => {
                                     </SelectGroup>
                                 </SelectContent>
                             </Select>
-                            <Textarea
-                                className="h-[200px]"
-                                placeholder="Escribe aquí tu mensaje..."
-                            />
+
                             <Button size="md" className="max-w-40">
                                 Enviar mensaje
                             </Button>

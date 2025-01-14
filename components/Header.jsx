@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Nav } from "./Nav";
-import { Button } from "./ui/button";
 import { MobileNav } from "./MobileNav";
 
 export const Header = () => {
